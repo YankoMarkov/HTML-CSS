@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+.title {
+    font-family: Roboto, sans-serif;
+}
+body {
+    font-family: sans-serif;
+}
+.label {
+    display: inline-block;
+    width: 90px;
+}
+.form-group {
+    padding: 2px 0;
+}
+.form-group input[type="text"] {
+    border-radius: 3px;
+    border: 2px solid #cccccc;
+}
+.form-group input[type="submit"] {
+    border: 1px solid #0c4fcc;
+    background-color: rgba(22, 121, 243, 0.93);
+    color: white;
+    border-radius: 3px;
+    padding: 3px 7px;
+}
+.form-group input[type="submit"]:hover {
+    cursor: pointer;
+}
+form {
+    background: #d9d9d9;
+    padding: 10px;
+    border-radius: 5px;
+    width: 250px;
+}
+
+.border {
+    padding: 15px;
+}
+.redBorder {
+    border: 4px solid red;
+    border-radius: 15px;
+    width: 198px;
+    padding-left: 83px;
+}
+.greenBorder {
+    border: 4px solid green;
+    border-radius: 15px;
+    width: 207px;
+    padding-left: 73px;
+}
+.blueBorder {
+    border: 4px solid blue;
+    border-radius: 15px;
+    width: 200px;
+    padding-left: 80px;
+}
+.outsideBorder {
+    border: 4px dotted blue;
+    border-radius: 15px;
+    padding: 30px;
+    width: 325px;
+}
+.middleBoarder {
+    border: 2px dashed red;
+    border-radius: 10px;
+    padding: 30px;
+    width: 260px;
+}
+.innerBorder {
+    border: 2px solid green;
+    border-radius: 10px;
+    width: 225px;
+    padding-left: 30px;
+}
